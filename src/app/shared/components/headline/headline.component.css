@@ -1,0 +1,14 @@
+:host {
+    display: block;
+    margin-bottom: 30px;
+}
+
+div {
+    padding: 20px 40px;
+    background-color: slategrey;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}

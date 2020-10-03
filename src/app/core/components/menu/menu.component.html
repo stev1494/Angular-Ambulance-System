@@ -1,0 +1,14 @@
+<nav>
+
+    <button *ngFor="let menu of listMenu" mat-button (click)="goToSection(menu.path)">
+      <mat-icon>{{ menu.icon }}</mat-icon>
+      {{ menu.title}}
+    </button>
+
+    <!-- <ul>
+        <li><a routerLink="/summary">Resumen</a></li>
+        <li><a routerLink="/users">Usuarios</a></li>
+        <li><a routerLink="/medics">Médicos</a></li>
+        <li><a routerLink="/drivers">Pilotos</a></li>
+    </ul> -->
+</nav>
